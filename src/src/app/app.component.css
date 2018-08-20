@@ -1,0 +1,33 @@
+body {
+  box-sizing: border-box;
+  background: linear-gradient(to right, #315846, #1f4037);
+}
+
+.articles-container {
+width: 400px;
+height: 200px;
+
+}
+
+ul {
+  list-style: none;
+  border: 2px solid blue;
+
+}
+
+/* .id {
+  font-size: 40px;
+/*   float: left;
+} */
+
+
+
+ul {
+position: relative;
+
+ }
+
+ p {
+
+ }
+

@@ -1,0 +1,32 @@
+<h1>
+  News Articles
+</h1>
+<button (click) = "sortByAscendingOrder()">Sort</button>
+<div class="articles-container" >
+  <h2>Below is the list of Articles:</h2>
+
+  <ul *ngFor="let article of articlesObj" >
+<!--     <li>
+      <h3 class="id">{{ article.id }}</h3>
+    </li> -->
+    <li>
+      <p class="title">Here goes the title: <br> {{ article.title}}</p>
+    </li>
+    <li>
+      <p >URL: {{article.url}}</p>
+    </li>
+    <li>
+      <p>PUBLISHER: {{ article.publisher }}</p>
+    </li>
+    <li>
+      <p>CATEGORY: {{ article.category}}</p>
+    </li>
+    <li>
+      <p>HOSTNAME: {{ article.hostname }}</p>
+    </li>
+    <li>
+      <p>TIMESTAMP: {{ article.timestamp }}</p>
+    </li>
+    <br><br>
+  </ul>
+</div>
